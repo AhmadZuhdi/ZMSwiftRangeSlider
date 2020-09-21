@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-ya-FaB" customClass="RangeSlider" customModule="ZMSwiftRangeSlider">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-ya-FaB" customClass="ZMRangeSlider" customModule="ZMSwiftRangeSlider">
                                 <rect key="frame" x="40" y="60" width="520" height="100"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -29,7 +29,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="labelsAreBelow" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feg-aS-acB" customClass="RangeSlider" customModule="ZMSwiftRangeSlider">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feg-aS-acB" customClass="ZMRangeSlider" customModule="ZMSwiftRangeSlider">
                                 <rect key="frame" x="40" y="234" width="520" height="100"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>

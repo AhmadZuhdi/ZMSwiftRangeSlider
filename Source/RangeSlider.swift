@@ -1,7 +1,7 @@
 import UIKit
 
 @IBDesignable
-open class RangeSlider: UIControl {
+open class ZMRangeSlider: UIControl {
 
     public typealias ValueChangedCallback = (_ minValue: Int, _ maxValue: Int) -> Void
     public typealias MinValueDisplayTextGetter = (_ minValue: Int) -> String?
@@ -26,7 +26,7 @@ open class RangeSlider: UIControl {
     var maxRange: Int
     var thumbRadius: CGFloat
     var displayTextFont: UIFont
-    
+
     open override var frame: CGRect {
         didSet {
             updateLayerFrames()

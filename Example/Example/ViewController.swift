@@ -3,9 +3,9 @@ import ZMSwiftRangeSlider
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var rangeSlider1: RangeSlider!
+    @IBOutlet weak var rangeSlider1: ZMRangeSlider!
 
-    @IBOutlet weak var rangeSlider2: RangeSlider!
+    @IBOutlet weak var rangeSlider2: ZMRangeSlider!
 
     override func viewDidLoad() {
         super.viewDidLoad()

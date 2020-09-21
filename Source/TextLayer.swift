@@ -2,7 +2,7 @@ import UIKit
 
 class TextLayer: CATextLayer {
 
-    weak var rangeSlider: RangeSlider?
+    weak var rangeSlider: ZMRangeSlider?
 
     override func draw(in ctx: CGContext) {
         guard let slider = rangeSlider else {
